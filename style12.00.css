@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F8D5FF;
+    font-family: 'Kameron', serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2vh 5vw;
+}
+
+.time {
+    font-size: 40px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    width: 264px;
+    text-decoration: none;
+    /* Removes underline */
+    color: transparent;
+    /* Removes the fill */
+    -webkit-text-stroke: 2px #FF0000;
+    display: inline-block;
+    /* Ensures it behaves like a block element */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.time:hover,
+.time.red:hover {
+    transform: scale(1.1);
+    color: aqua;
+
+}
+
+.time.red {
+    color: #FF0000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 2.8vw;
+    /* 自适应字体大小 */
+    font-family: 'Kumar One', sans-serif;
+    color: #FF0000;
+}
+
+.title {
+    font-size: 128px;
+    font-family: Kapakana;
+    font-weight: 400;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.title:hover {
+    color: #FF0000;
+    transform: scale(1.1);
+
+}
+
+.content {
+    text-align: center;
+    margin-top: 5vh;
+    /* 确保和标题有足够间距 */
+}
+
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 631.72px;
+    height: 761px;
+    max-width: 631.72px;
+    margin-top: -5vh;
+    /* 调整图片上移 */
+}
+
+img {
+    width: 631.72px;
+    height: 761px;
+}
+
+.label {
+    position: absolute;
+    font-size: 2.5vw;
+    color: #FF0000;
+    white-space: nowrap;
+    margin-top: 7vh;
+}
+
+.label:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.eyelash {
+    top: 0.5%;
+    left: 4%;
+    text-align: right;
+}
+
+.white-eyeliner {
+    top: 15%;
+    left: 0;
+    text-align: right;
+}
+
+.concealer {
+    top: 25%;
+    left: 12%;
+    text-align: right;
+}
+
+.lip-liner {
+    top: 42%;
+    left: 28%;
+    text-align: right;
+}
+
+.dark-eyeliner {
+    top: 12%;
+    left: 58%;
+}
+
+.foundation {
+    top: 21%;
+    left: 47%;
+}
+
+.nude-lip-gloss {
+    top: 35%;
+    left: 51%;
+}
+
+
+
+.description {
+    font-size: 2.5vw;
+    margin-top: 2vh;
+    /* 调整描述上移 */
+    line-height: 1.5;
+    color: #FF0000;
+    width: 100%;
+    max-width: 631.72px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 155px;
+    font-size: 36px;
+    font-family: Kumar One;
+    font-weight: 400;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF0000;
+    margin-top: 90px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer:hover {
+    transform: scale(1.1);
+    color: aqua;
+    -webkit-text-stroke: 2px #FF0000;
+}

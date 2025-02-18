@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: 'Kumar One', sans-serif;
+    background-color: #F8D5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1440px;
+    height: 3000px;
+    padding: 46px 68px 73.21px 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-container {
+    height: 3297.79px;
+    display: flex;
+    flex-direction: column;
+    gap: 155px;
+}
+
+.section {
+    height: 3063.79px;
+    display: flex;
+    flex-direction: column;
+    gap: 123px;
+}
+
+.header .time-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 221px;
+    gap: 68px;
+}
+
+.time {
+    font-size: 40px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    width: 264px;
+    text-decoration: none;
+    /* Removes underline */
+    color: transparent;
+    /* Removes the fill */
+    -webkit-text-stroke: 2px #FF0000;
+    display: inline-block;
+    /* Ensures it behaves like a block element */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.time:hover,
+.time.red:hover {
+    transform: scale(1.1);
+    color: aqua;
+}
+
+.time.red {
+    color: #FF0000;
+}
+
+.title {
+    font-size: 128px;
+    font-family: Kapakana;
+    font-weight: 400;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.title:hover {
+    color: #FF0000;
+    transform: scale(1.1);
+}
+
+.wontonimg {
+    width: 502px;
+    height: 368.66px;
+}
+
+.lycheeimg {
+    width: 431.36px;
+    height: 403px;
+}
+
+.hainanimg {
+    width: 477.34px;
+    height: 455.31px;
+}
+
+.mangoimg {
+    width: 458px;
+    height: 367.82px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+/* Entry header section for title, line, and time */
+.entry-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Horizontally center the elements */
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.entry-title {
+    font-family: 'Kapakana', sans-serif;
+    font-size: 72px;
+    color: #FF0000;
+    white-space: nowrap;
+    margin-right: 20px;
+    /* Add some space between the title and the line */
+}
+
+.entry-line {
+    flex-grow: 1;
+    height: 5px;
+    border-top: 4px dashed #FF0000;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 60%;
+    /* Prevents the line from being too long */
+    min-width: 100px;
+    /* Keeps the line from being too short */
+}
+
+.entry-time {
+    font-family: 'Kapakana', sans-serif;
+    font-size: 64px;
+    color: #FF0000;
+    text-align: right;
+    width: 90px;
+    white-space: nowrap;
+    margin-left: -40px;
+    /* 适当减小左边距，使其更居中 */
+}
+
+.entry-content {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+
+.entry-text {
+    font-family: 'Kameron', serif;
+    font-size: 32px;
+    color: #FF0000;
+    width: 687px;
+}
+
+/* Hainanese Chicken Rice Section */
+.entry-header .short {
+    width: 368px;
+}
+
+.entry-header .medium {
+    width: 507px;
+}
+
+.dessert-header {
+    font-size: 128px;
+    font-family: Kapakana;
+    font-weight: 400;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF0000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer {
+    margin-top: 155px;
+    font-size: 36px;
+    font-family: Kumar One;
+    font-weight: 400;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF0000;
+    margin-top: 90px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer:hover {
+    transform: scale(1.1);
+    color: aqua;
+    -webkit-text-stroke: 2px #FF0000;
+}

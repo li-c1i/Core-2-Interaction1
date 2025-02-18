@@ -1,0 +1,168 @@
+body {
+    font-family: Kameron, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    background-color: #F8D5FF;
+    text-align: center;
+}
+
+.time-slots {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-family: "Kumar One", sans-serif;
+}
+
+.time {
+    font-size: 40px;
+    font-family: Kumar One;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    width: 264px;
+    text-decoration: none;
+    /* Removes underline */
+    color: transparent;
+    /* Removes the fill */
+    -webkit-text-stroke: 2px #FF0000;
+    display: inline-block;
+    /* Ensures it behaves like a block element */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.time:hover,
+.time.red:hover {
+    transform: scale(1.1);
+    color: aqua;
+
+}
+
+.time.red {
+    color: #FF0000;
+}
+
+.store-name {
+    margin: 40px 0 20px;
+    font-size: 128px;
+    font-family: Kapakana;
+    font-weight: 400;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.store-name:hover {
+    color: #FF0000;
+    transform: scale(1.1);
+
+}
+
+
+.store-img1 {
+    margin: 20px auto;
+    width: 100%;
+    /* Ensure the image width is responsive */
+    max-width: 1076px;
+    /* Keeps the image's width from exceeding the original width */
+    height: auto;
+    /* Adjust height to maintain aspect ratio */
+    max-height: 571px;
+    /* Keeps the height from exceeding the original height */
+    border: 3px #FF0000 solid;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.store-img2 {
+    width: 472px;
+    height: 295px;
+    border: 3px #FF0000 solid;
+}
+
+.store-img3 {
+    width: 100%;
+    /* Ensure the image width is responsive */
+    max-width: 1076px;
+    /* Keeps the image's width from exceeding the original width */
+    height: auto;
+    /* Adjust height to maintain aspect ratio */
+    max-height: 571px;
+    /* Keeps the height from exceeding the original height */
+    border: 3px #FF0000 solid;
+}
+
+
+.store-img4 {
+    width: 403px;
+    height: 295px;
+    border: 3px #FF0000 solid;
+}
+
+.description,
+.address,
+.highlights,
+.hours {
+    font-size: 40px;
+    color: #ff0000;
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+
+.footer {
+    font-size: 36px;
+    font-family: Kumar One;
+    font-weight: 400;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF0000;
+    margin-top: 90px;
+}
+
+.home {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+
+}
+
+.footer:hover {
+    transform: scale(1.1);
+    color: aqua;
+    -webkit-text-stroke: 2px #FF0000;
+}
+
+.store-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.description {
+    flex: 1;
+    text-align: left;
+    font-size: 40px;
+    color: #ff0000;
+    margin-right: 20px;
+}
+
+.address {
+    flex: 1;
+    text-align: center;
+    font-size: 64px;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF0000;
+}
+
+.highlights {
+    flex: 1;
+    text-align: right;
+    font-size: 40px;
+    color: #ff0000;
+    margin-left: 20px;
+}
